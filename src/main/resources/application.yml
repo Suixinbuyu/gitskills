@@ -4,7 +4,8 @@ spring:
     type: com.alibaba.druid.pool.DruidDataSource
     # 配置MySQL的驱动程序类
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://47.101.59.27:3306/test?useSSL=false
+    #根据需要自己配
+    url: jdbc:mysql://127.0.0.1:3306/test?useSSL=false
     username: alimysql
     password: ali123456
     # 进行数据库连接池的配置
